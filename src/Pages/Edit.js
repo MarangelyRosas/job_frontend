@@ -1,3 +1,5 @@
+import JobEditForm from "../Components/JobEditForm";
+
 function Edit() {
     return (
       <div className="New Edit">
