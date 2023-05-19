@@ -19,7 +19,7 @@ function Jobs() {
 
     return (
         <div className="Jobs">
-            <section>
+            <section className="section-view">
                <table>
                 <thead>
                     <tr>

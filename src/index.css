@@ -65,6 +65,10 @@ tbody tr:nth-child(even) {
   width: 50%;
 }
 
+/* .section-view {
+  border: 10px;
+} */
+
 .New form {
   margin: auto;
   width: 45%;
