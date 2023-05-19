@@ -19,14 +19,13 @@ function Review({ review, handleDelete, handleSubmit }) {
         />
         ) : (
           <div>
-            <h4>
-              {review.title} <span>{review.rating}</span>
-            </h4>
-            <h5>{review.reviewer}</h5>
-            <p>{review.content}</p>
+            <p><strong>Title:</strong> {review.title}</p>
+            <span><strong>Rating:</strong> {review.rating}</span>
+            <p><strong>Reviewer Name:</strong> {review.reviewer}</p>
+            <p><strong>Review Content: </strong>{review.content}</p>
           </div>
         )}
-        <button onClick={() => handleDelete(review.id)}>Delete</button>
+        <button onClick={() => handleDelete(review.id)}>Delete this Review</button>
       </div>
     );
   }
