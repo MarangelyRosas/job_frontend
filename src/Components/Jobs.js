@@ -17,10 +17,21 @@ function Jobs() {
     }, []);
     return (
         <div className="Jobs">
-            <section className="Job-Grid">
-                {jobs.map((job) => {
+            <section>
+               <table>
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th>Jobs Listings</th>
+                        <th>View this Job</th>
+                    </tr>
+                </thead>
+                <tbody>
+                   {jobs.map((job) => {
                     return <Job key={job.id} job={job} />;
-                })}
+                   })} 
+                </tbody>
+               </table>
             </section>
         </div>
     );
