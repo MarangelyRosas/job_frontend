@@ -6,6 +6,7 @@ const API = process.env.REACT_APP_API_URL;
 
 function Jobs() {
     const [jobs, setJobs] = useState([]);
+
     useEffect(() => {
         axios
         .get(`${API}/jobs`)
@@ -15,6 +16,7 @@ function Jobs() {
             console.warn('catch', e)
         });
     }, []);
+
     return (
         <div className="Jobs">
             <section>
@@ -35,6 +37,6 @@ function Jobs() {
             </section>
         </div>
     );
-};
+}
 
 export default Jobs;
