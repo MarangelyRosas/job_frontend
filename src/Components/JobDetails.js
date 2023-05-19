@@ -45,15 +45,15 @@ function JobDetails() {
             </h2>
             <h5>
                 <span>
-                <a href={job.url}>Apply Here!{job.title}</a>
+                <a href={job.url}>👉🏽 Click Here to Apply! 👈🏽</a>
                 </span>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {job.url}
             </h5>
-            <h6>{job.description}</h6>
-            <h5>Company: {job.company} Location:{job.location}</h5>
+            <p><strong>Description:</strong> {job.description}</p>
+            <p><strong>Company:</strong> {job.company} &nbsp; &nbsp; &nbsp;&nbsp; <strong>Location: </strong>{job.location} 📍 &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; <strong>Salary:</strong> 💲{job.salary}.00/yr 💸</p>
+            <br></br>
             <div className="showNavigation">
                 <div>
-                    <Link>
+                    <Link to={`/jobs`}>
                         <button>Back</button>
                     </Link>
                 </div>
@@ -65,6 +65,7 @@ function JobDetails() {
                 <div>
                     <button onClick={handleDelete}>Delete</button>
                 </div>
+                <br></br>
                 <br></br>
                 {/* <Reviews /> */}
             </div>

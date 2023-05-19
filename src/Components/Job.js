@@ -16,7 +16,7 @@ function Job({ job }) {
                 </a>
             </td>
             <td>
-                <Link to={`/jobs/${job.id}`}>🔗</Link>
+                <Link to={`/jobs/${job.id}`}>Details</Link>
             </td>
         </tr>
     );

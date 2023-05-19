@@ -4,7 +4,7 @@ export default function NavBar() {
     return (
         <nav>
             <h1>
-                <Link to={`/`}> CodeCareer </Link>
+                <Link to={`/`}>CodeCareer &nbsp;&nbsp;🧑🏽‍💻 </Link>
             </h1>
             <button>
                 <Link to={'/jobs'}>Jobs Listings</Link>

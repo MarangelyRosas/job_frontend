@@ -24,8 +24,8 @@ function Jobs() {
                 <thead>
                     <tr>
                         <th></th>
-                        <th>Jobs Listings</th>
-                        <th>View this Job</th>
+                        <th>Available Positions ⤵</th>
+                        <th>View Listing 👀</th>
                     </tr>
                 </thead>
                 <tbody>

@@ -17,7 +17,7 @@ main {
   margin: auto;
 }
 
-a {
+a, h2, h3 {
   text-decoration: none;
   color: #8957ab;
 }
@@ -53,6 +53,16 @@ tbody tr:nth-child(even) {
   display: flex;
   justify-content: space-around;
   width: 50%;
+}
+
+button {
+  text-decoration: none;
+  color: #8957ab;
+}
+
+
+button:hover {
+  color: rgb(95, 15, 224);
 }
 
 body {
