@@ -117,7 +117,7 @@ function JobNewForm() {
           checked={job.is_favorite}
         />
 
-        <br />
+        <br></br><br></br><br></br>
         <input type="submit" />
       </form>
     </div>

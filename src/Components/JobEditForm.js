@@ -131,6 +131,7 @@ function JobEditForm() {
 
         <input type="submit" />
       </form>
+      <br></br>
       <Link to={`/jobs/${id}`}>
         <button>Nevermind!</button>
       </Link>
