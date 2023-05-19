@@ -21,10 +21,10 @@ function App() {
         <main>
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/sneakers" element={<Index />} />
-            {/* <Route path="/sneakers/new" element={<New />} /> */}
-            <Route exact path="/sneakers/:id" element={<Show />} />
-            {/* <Route path="/sneakers/:id/edit" element={<Edit />} /> */}
+            <Route path="/jobs" element={<Index />} />
+            {/* <Route path="/jobs/new" element={<New />} /> */}
+            <Route exact path="/jobs/:id" element={<Show />} />
+            {/* <Route path="/jobs/:id/edit" element={<Edit />} /> */}
             {/* <Route path="*" element={<FourOFour />} /> */}
           </Routes>
         </main>
