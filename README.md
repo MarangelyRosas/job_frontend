@@ -1,4 +1,30 @@
-# Getting Started with Create React App
+# Full-Stack Portfolio Project
+
+## App Name: CodeCareer 
+
+This is a web application built with PERN (PostgreSQL, Express, React, Node.js) and REST API that allows users to add their favorite sneakers to a list.
+
+## Trello Board
+
+To see my Trello Board, [Click Here](https://trello.com/b/cRHW6mPs/fsportfolio-project-codecareer).
+
+## Back-end
+
+- GitHub Repository URL: [Click Here](https://github.com/MarangelyRosas/jobs_backend)
+- Render Deployment URL: [Click Here](https://jobs-backend-avmo.onrender.com)
+
+## Front-end
+
+- Netlify Deployment URL: [Click Here](https://merry-bienenstitch-e4689e.netlify.app)
+
+## Installation
+
+To run this app on your local machine, clone the repository and run the following commands:
+
+```bash
+npm install
+npm install axios react-router-dom
+```
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
